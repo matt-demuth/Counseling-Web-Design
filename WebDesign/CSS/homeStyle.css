@@ -1,0 +1,303 @@
+main{
+    background-color: #e3e7bb;
+
+}
+body{
+    background-color: #e5f5d4;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("Background.jpeg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax {
+    z-index: +2;
+    background-image: url("Background.jpeg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #ada55b;
+}
+
+    /* Navbar links */
+#navbar a {
+    font-size: 125%;
+    float: right;
+    display: block;
+    color: #013a14;
+    text-align: center;
+    padding: 35px;
+    text-decoration: underline;
+}
+
+#navbar a:hover{
+    color: rgb(25, 95, 4);
+}
+
+    /* Page content */
+.content {
+    padding: 16px;
+}
+
+    /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: +1;
+}
+
+    /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+    padding-top: 60px;
+}
+
+header{
+    min-height: 20em;
+}
+#heroimg{
+    width:100%;
+    height: 12em;
+}
+
+.container {
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 3em;
+}
+
+.centered{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 150%;
+    text-shadow: 2px 2px black;
+}
+
+.centered2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 150%;
+    text-shadow: 2px 2px black; 
+}
+
+.centered3{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 120%;
+    text-shadow: 2px 2px black;    
+}
+
+.centered4{
+    position: absolute;
+    top: 55%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    font-size: 80%;
+    text-shadow: 2px 2px black;
+}
+
+.middleleft {
+    font-size: 75%;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    text-shadow: 1px 1px black;
+}
+
+.topleft{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+}
+
+h1{
+    font-size:200%;
+    padding-top:1em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2{
+    font-size:200%;
+    font-family: 'Times New Roman', Times, serif;
+    color: #0a0a0a;
+}
+
+h3{
+    font-size: 200%;
+    font-family: 'Times New Roman', Times, serif;
+    color: #0a0a0a;
+}
+
+h4{
+    font-size: 200%;
+    font-family: 'Times New Roman', Times, serif;
+    color: #070707;    
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.w3-button{
+    padding-top:2em;
+    padding-bottom: 2em;
+    border:none;
+    display:inline-block;
+    padding:15px 22px;
+    vertical-align:middle;
+    overflow:hidden;
+    text-decoration:none;
+    color: #0a0c0b;
+    background-color: #ada55b;
+    text-align:center;
+    cursor:pointer;
+    white-space:nowrap;
+}
+
+#profileimg{
+    padding-top:2em;
+    width:40%;
+    border-radius: 60%;
+    border: 2px #333;
+    margin-bottom: 2em;
+}
+
+.about{
+    color:rgb(61, 59, 59);
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding: 2em;
+    font-size:125%;
+    text-align: center;
+    margin-bottom: 2em;
+    background-color: #e3e7bb;
+
+}
+
+.qualifications{
+    padding-top:2em;
+    padding-bottom: 2em;
+    border:none;
+    display:inline-block;
+    padding:2em 5em;
+    vertical-align:middle;
+    overflow:hidden;
+    text-decoration:none;
+    color:rgb(12, 12, 12);
+    background-color: #e3e7bb;
+    text-align:center;
+}
+
+.rates{
+    margin-top: 3em;
+    margin-bottom: 3em;
+    background-color: #e3e7bb;
+    padding-bottom: 1em;
+}
+
+table{
+    padding-left: 34em;
+    margin-bottom: 1em;
+}
+
+td {
+    font-size: 110%;
+    padding: 15px;
+    text-align: left;
+}
+
+footer{
+    padding-top: 2em;
+    margin-top: 4em;
+    text-align: center;
+    font-size: 125%;
+    color: rgb(46, 46, 46);
+    background-color: #e3e7bb;
+}
+
+a{
+    color: rgb(109, 98, 81);
+}
+
+a:hover{
+    color: rgb(25, 95, 4);
+}
+
+.slideshow-container {
+    color: #0e0b0b;
+    margin-top: 5em;
+    padding-top: 1px; 
+    position: relative;
+    background-color: #e5f5d4;
+}
+
+/* Slides */
+.mySlides {
+    color: #0a0a0a;
+    display: none;
+    padding: 80px;
+    text-align: center;
+    background-color: #e3e7bb;
+    border-bottom:  #ada55b solid 30px;
+    }
+
+    /* Next & previous buttons */
+    .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: rgb(17, 17, 17);
+    font-weight: bold;
+    font-size: 35px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.prev{
+    position: absolute;
+    left: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* Position the "next button" to the right */
+.next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: #e5f5d4;
+    color: white;
+}
+/* Add an italic font style to all quotes */
+q {
+    font-style: italic;
+    font-size:larger;
+}
+
+/* Add a blue color to the author */
+.author {
+    color: rgb(33, 34, 34);
+    font-size: larger;}

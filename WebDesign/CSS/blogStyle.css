@@ -1,0 +1,217 @@
+main{
+    background-color: #e3e7bb;
+
+}
+body{
+    background-color: #e3e7bb;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("Background.jpeg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax {
+    z-index: +2;
+    background-image: url("Background.jpeg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #ada55b;
+}
+
+    /* Navbar links */
+#navbar a {
+    font-size: 125%;
+    float: right;
+    display: block;
+    color: #013a14;
+    text-align: center;
+    padding: 35px;
+    text-decoration: underline;
+}
+
+#navbar a:hover{
+    color: rgb(25, 95, 4);
+}
+
+    /* Page content */
+.content {
+    padding: 16px;
+}
+
+    /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: +1;
+}
+
+    /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+    padding-top: 60px;
+}
+
+header{
+    min-height: 20em;
+}
+#heroimg{
+    width:100%;
+    height: 12em;
+}
+
+.container {
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 3em;
+}
+
+.centered{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 150%;
+    text-shadow: 2px 2px black;
+}
+
+.centered2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 150%;
+    text-shadow: 2px 2px black; 
+}
+
+.centered3{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 120%;
+    text-shadow: 2px 2px black;    
+}
+
+.centered4{
+    position: absolute;
+    top: 55%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    font-size: 80%;
+    text-shadow: 2px 2px black;
+}
+
+.middleleft {
+    font-size: 75%;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    text-shadow: 1px 1px black;
+}
+
+.topleft{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+}
+
+h1{
+    font-size:200%;
+    padding-top:1em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2{
+    font-size:200%;
+    font-family: 'Times New Roman', Times, serif;
+    color: #0a0a0a;
+}
+
+h3{
+    font-size: 200%;
+    font-family: 'Times New Roman', Times, serif;
+    color: #0a0a0a;
+}
+.w3-button{
+    padding-top:2em;
+    padding-bottom: 2em;
+    border:none;
+    display:inline-block;
+    padding:15px 22px;
+    vertical-align:middle;
+    overflow:hidden;
+    text-decoration:none;
+    color:white;
+    background-color: #ada55b;
+    text-align:center;
+    cursor:pointer;
+    white-space:nowrap;
+}
+
+.posts{
+    width: 100%;
+    margin-top: 2em;
+    margin-bottom: 5em;
+    text-align: left;
+}
+
+.blog{
+    margin-bottom: 2em;
+    text-align: left;
+}
+
+.blogheader {
+    background-color: #e3e7bb;
+    font-size: 150%;
+    color: #f2f2f2;
+    text-align: left;
+}
+
+.card{
+    text-align: left;
+    padding-left: 1em;
+    padding: 1px 20px ;
+    margin-top: 2em;
+    margin-bottom:  2em;
+    background-color: #e3e7bb;
+}
+
+footer{
+    padding-top: 2em;
+    margin-top: 1em;
+    text-align: center;
+    font-size: 125%;
+    color: rgb(46, 46, 46);
+    color: rgb(25, 95, 4);
+}
+
+a{
+    color: rgb(109, 98, 81);
+}
+
+a:hover{
+    color: aquamarine;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+.leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+}
+}
